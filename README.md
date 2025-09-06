@@ -1,6 +1,8 @@
 # Stack Tower
 
-Make a tower as tall as you can. Press 'Start' to begin and then press space to send the block down to the foundation stone. Try the [web](https://www.forthtemple.com/stacktower-threejs/) version.
+Make a tower as tall as you can. Press 'Start' to begin and then press space to send the block down to the foundation stone. 
+
+Try the [web](https://www.forthtemple.com/stacktower-threejs/) version.
 
 This is a port of my previous [stacktower](https://github.com/forthtemple/stacktower) game that used  [three_dart](https://github.com/wasabia/three_dart) to a more up to date version [three_js](https://github.com/Knightro63/three_js).  Even though [three_js](https://github.com/Knightro63/three_js) is a little slower than three_dart it seems to be more up to date on all platforms. It uses Google Angle for compatibility. Like three_dart it runs on Android, iOS, Linux, Windows and web. [three_js](https://github.com/Knightro63/three_js) is based upon  [three_dart](https://github.com/wasabia/three_dart) which is based upon https://github.com/mrdoob/three.js .
 
