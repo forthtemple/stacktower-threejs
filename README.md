@@ -7,6 +7,3 @@ This is a port of my previous [stacktower](https://github.com/forthtemple/stackt
 ![stacktower](https://github.com/user-attachments/assets/9b3d7bf7-a9ad-4572-98ad-2ecdb97d1984)
 
 ![Untitledvi](https://github.com/user-attachments/assets/c2105523-ce36-46f1-8ac1-71de2a759cee)
-
-
-[![stacktower](https://snapcraft.io/stacktower/badge.svg)](https://snapcraft.io/stacktower)
