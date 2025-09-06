@@ -1,0 +1,6 @@
+framework module flutter_angle {
+  umbrella header "flutter_angle-umbrella.h"
+
+  export *
+  module * { export * }
+}

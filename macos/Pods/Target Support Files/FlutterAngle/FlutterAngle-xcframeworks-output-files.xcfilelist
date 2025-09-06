@@ -1,0 +1,2 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterAngle/libEGL.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterAngle/libGLESv2.framework

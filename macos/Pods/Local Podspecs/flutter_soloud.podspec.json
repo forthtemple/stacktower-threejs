@@ -1,0 +1,48 @@
+{
+  "name": "flutter_soloud",
+  "version": "0.0.1",
+  "summary": "Flutter audio plugin using SoLoud library and FFI",
+  "description": "Flutter audio plugin using SoLoud library and FFI",
+  "homepage": "http://example.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "email@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*.{h,mm}",
+  "dependencies": {
+    "FlutterMacOS": []
+  },
+  "platforms": {
+    "osx": "10.15"
+  },
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": [
+      "$(PODS_TARGET_SRCROOT)/include",
+      "$(PODS_TARGET_SRCROOT)/../src",
+      "$(PODS_TARGET_SRCROOT)/../src/soloud/include",
+      "${PODS_ROOT}/abseil"
+    ],
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited)",
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "OTHER_LDFLAGS": "-L$(PODS_TARGET_SRCROOT)/libs -logg -lopus -lvorbis -lvorbisfile",
+    "OTHER_CFLAGS": "-O3 -ffast-math -flto",
+    "OTHER_CPLUSPLUSFLAGS": "-O3 -ffast-math -flto",
+    "VALID_ARCHS": "x86_64 arm64"
+  },
+  "swift_versions": "5.0",
+  "ios": {
+    "frameworks": [
+      "AudioToolbox",
+      "AVFAudio"
+    ]
+  },
+  "swift_version": "5.0"
+}

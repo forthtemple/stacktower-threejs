@@ -1,0 +1,6 @@
+framework module flutter_soloud {
+  umbrella header "flutter_soloud-umbrella.h"
+
+  export *
+  module * { export * }
+}

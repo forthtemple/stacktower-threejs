@@ -1,0 +1,41 @@
+{
+  "name": "flutter_angle",
+  "version": "0.3.6",
+  "summary": "Flutters Almost Native Graphics Layer Engine is made by google to use OpenGL ES API calls to one of the hardware-supported APIs available for that platform.",
+  "description": "Flutters Almost Native Graphics Layer Engine is made by google to use OpenGL ES API calls to one of the hardware-supported APIs available for that platform.",
+  "homepage": "https://github.com/Knightro63/flutter_angle/tree/main/flutter_angle",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": "Multiple Authors",
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*.{h,m,swift,inc,plist}",
+  "public_header_files": "Classes/**/*.{h,inc}",
+  "swift_versions": "5.0",
+  "libraries": "c++",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "FlutterAngle": [
+      "~> 0.0.8"
+    ]
+  },
+  "osx": {
+    "dependencies": {
+      "FlutterMacOS": []
+    }
+  },
+  "platforms": {
+    "osx": "10.14",
+    "ios": "12.0"
+  },
+  "ios": {
+    "dependencies": {
+      "Flutter": []
+    }
+  },
+  "swift_version": "5.0"
+}
